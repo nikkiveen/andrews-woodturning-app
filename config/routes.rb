@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get '/' => 'projects#index'
+  get '/' => 'pages#home'
 end
