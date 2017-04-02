@@ -1,0 +1,20 @@
+@import 'colors';
+
+nav, .page-footer {
+  background-color: $forest;
+}
+
+.footer-copyright {
+  background-color: rgba(0, 0, 0, .15) !important;
+}
+
+/********* STICKY FOOTER *********/
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
